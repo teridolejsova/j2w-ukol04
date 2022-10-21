@@ -13,6 +13,15 @@ public class Vizitka {
   private String email;
   private String telefon;
   private String web;
+  private Integer id;
+
+  public Integer getId() {
+    return id;
+  }
+
+  public void setId(Integer id) {
+    this.id = id;
+  }
 
   public Vizitka() {
   }
