@@ -50,7 +50,7 @@ public class VizitkaController {
         return modelAndView;
     }
     @PostMapping("/smazat")
-    public String smazat(@RequestParam(value = "id") Integer id) {
+    public String smazat(int id) {
         service.delete(id);
         return "redirect:/";
     }
