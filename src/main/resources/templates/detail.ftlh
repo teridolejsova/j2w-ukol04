@@ -30,8 +30,8 @@
                 [#if vizitka.email?has_content]
                     <div><i class="bi bi-at"></i> ${vizitka.email}</div>
                 [/#if]
-                [#if vizitka.cislo?has_content]
-                    <div><i class="bi bi-phone"></i> ${vizitka.cislo}</div>
+                [#if vizitka.telefon?has_content]
+                    <div><i class="bi bi-phone"></i> ${vizitka.telefon}</div>
                 [/#if]
                 [#if vizitka.web?has_content]
                     <div><i class="bi bi-globe"></i> ${vizitka.web}</div>[/#if]
